@@ -20,7 +20,6 @@ npm install gh-pages --save-dev
 
 //Create a Github
 git init
-git remote add origin git@github.com:yourUserName/my-app.git 
 git remote add origin https://github.com/ILLYAKO/illyako.github.io.git
 
 // Change Git branch
@@ -35,7 +34,16 @@ git push origin source
 //------
 
 //after make changes
+git add .
+git commit -m "2021-xxxx" 
 git push origin source
 
 //Now deploy it to GitHub Pages
 npm run deploy
+
+//---React Bootstrap---
+npm install react-bootstrap bootstrap
+
+// Add to src/index.js or App.js file
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.js";
