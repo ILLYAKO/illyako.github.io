@@ -10,40 +10,48 @@ npm install gh-pages --save-dev
 // Add properties to package.json file.
 
 //at the top level
-"homepage": "http://yourUserName.github.io/my-app"    //"homepage": "https://yourUserName.github.io/", //"homepage": "https://illyako.github.io/",
+"homepage": "https://illyako.github.io/",
 //...
 "scripts": {
 //...
 "predeploy": "npm run build",
-"deploy": "gh-pages -d build"                         // "deploy": "gh-pages -b master -d build"
+"deploy": "gh-pages -b master -d build"
 }
 
 //Create a Github
 git init
-git remote add origin git@github.com:yourUserName/my-app.git 
-// git remote add origin https://github.com/ILLYAKO/test1.git 
-// git remote add origin https://github.com/ILLYAKO/illyako.github.io.git  //*****
+git remote add origin https://github.com/ILLYAKO/illyako.github.io.git
 
-
-//Now deploy it to GitHub Pages
-npm run deploy
+// Change Git branch
+git checkout -b source
+git push origin source
 
 //commit and push your commit to GitHub (optional)
 git add .
 git commit -m "Your awesome message"
-git push origin master
+git push origin source
+
+//------
+
+//after make changes
+git add .
+git commit -m "2021-xxxx" 
+git push origin source
+
+//Now deploy it to GitHub Pages
+npm run deploy
+
+// web
+https://illyako.github.io/
+
+// copy from source to master
+git checkout master
+git checkout source .
 
 
-…or create a new repository on the command line
-echo "# test1" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/ILLYAKO/test1.git
-git push -u origin main
+//---React Bootstrap---
+npm install react-bootstrap bootstrap
 
-…or push an existing repository from the command line
-git remote add origin https://github.com/ILLYAKO/test1.git
-git branch -M main
-git push -u origin main
+// Add to src/index.js or App.js file
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.js";
