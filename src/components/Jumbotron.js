@@ -6,8 +6,10 @@ const Jumbotron = () => {
       <h1 className="display-4 text-center">My portfolio</h1>
       <hr></hr>
       <img
-        className="img-fluid d-md-block d-sm-none"
+        className="img-fluid  d-sm-none"
         src="https://drive.google.com/uc?export=view&id=1672nK88wqJnM6nkCUPfzQBYF1bl3ojvX"
+        width="1046"
+        height="567"
         alt="Jumbotron"
       ></img>
       <p className="lead">

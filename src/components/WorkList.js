@@ -7,12 +7,13 @@ const WorkList = () => {
       <hr></hr>
       <div class="row">
         <div class="col-lg-3 col-md-4 col-sm-6">
-          <p>Some text..</p>
+          <p>Movie Search</p>
           <img
-            src="/"
-            class="img-responsive"
-            // style="width:100%"
-            alt="WorkImage"
+            className="img-fluid d-md-block d-sm-none"
+            src="https://drive.google.com/uc?export=view&id=13gHAPfiMLUGIxQEAuZwCcDZWR_J2VBfm"
+            // class="img-responsive"
+            // style={{"width":"100%"}}
+            alt="WorkImage12"
           />
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6">
