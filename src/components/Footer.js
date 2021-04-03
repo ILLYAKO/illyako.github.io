@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="row">
             {/* <!--Grid column--> */}
             <div className="col-lg-6 col-md-12 mb-4 mb-md-0">
-              <h5 className="text-uppercase"> Footer</h5>
+              {/* <h5 className="text-uppercase"> Footer</h5> */}
 
               <p>
                 A coding journey of a thousand projects begins with a single
@@ -90,8 +90,8 @@ const Footer = () => {
           // style="background-color: rgba(0, 0, 0, 0.2);"
         >
           © 2021 Copyright:
-          <a className="text-dark" href="https://illyako.github.io/">
-            &nbsp ILLYA
+          <a className="text-dark" href="/">
+            ILLYA
           </a>
         </div>
         {/* <!-- Copyright --> */}
