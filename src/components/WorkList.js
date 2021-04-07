@@ -6,7 +6,16 @@ const WorkList = () => {
       <h3>Projects</h3>
       <hr></hr>
       <div class="row">
-        <div className="col-lg-4 col-md-4 col-sm-6">
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <p>Healty Habits</p>
+          <img
+            className="img-fluid d-none d-lg-block"
+            src="https://drive.google.com/uc?export=view&id=1w9NUlKC1aX-b4tCAHqRDr9u0H91ZlX7h"
+            //https://drive.google.com/file/d/1w9NUlKC1aX-b4tCAHqRDr9u0H91ZlX7h/view?usp=sharing
+            alt="WorkImage3"
+          />
+        </div>
+        <div className="col-lg-3 col-md-4 col-sm-6">
           <a href="https://illyako.github.io/shoppies-omdb-api/">
             <p>Movie Search</p>
             <img
@@ -16,7 +25,7 @@ const WorkList = () => {
             />
           </a>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-6">
+        <div class="col-lg-3 col-md-4 col-sm-6">
           <p>Bakery</p>
           <img
             className="img-fluid d-none d-lg-block"
@@ -24,7 +33,7 @@ const WorkList = () => {
             alt="WorkImage2"
           />
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-6">
+        <div class="col-lg-3 col-md-4 col-sm-6">
           <p>E-Store</p>
           <img
             className="img-fluid d-none d-lg-block"

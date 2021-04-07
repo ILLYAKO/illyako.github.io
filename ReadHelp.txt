@@ -38,7 +38,7 @@ git add .
 git commit -m "2021-xxxx" 
 git push origin source
 
-//Now deploy it to GitHub Pages
+// Deploy it to GitHub Pages
 npm run deploy
 
 // web
