@@ -1,23 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/static/js/main.16ca37bd.chunk.js",
-    "main.js.map": "/static/js/main.16ca37bd.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.3c762515.js",
-    "runtime-main.js.map": "/static/js/runtime-main.3c762515.js.map",
-    "static/js/2.2df1af25.chunk.js": "/static/js/2.2df1af25.chunk.js",
-    "static/js/2.2df1af25.chunk.js.map": "/static/js/2.2df1af25.chunk.js.map",
-    "static/js/3.043100c7.chunk.js": "/static/js/3.043100c7.chunk.js",
-    "static/js/3.043100c7.chunk.js.map": "/static/js/3.043100c7.chunk.js.map",
+    "main.css": "/static/css/main.c911240f.chunk.css",
+    "main.js": "/static/js/main.38c9b7b8.chunk.js",
+    "main.js.map": "/static/js/main.38c9b7b8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0390c9eb.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0390c9eb.js.map",
+    "static/css/2.27dd871e.chunk.css": "/static/css/2.27dd871e.chunk.css",
+    "static/js/2.d1b9e1d7.chunk.js": "/static/js/2.d1b9e1d7.chunk.js",
+    "static/js/2.d1b9e1d7.chunk.js.map": "/static/js/2.d1b9e1d7.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.2df1af25.chunk.js.LICENSE.txt": "/static/js/2.2df1af25.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg"
+    "static/css/2.27dd871e.chunk.css.map": "/static/css/2.27dd871e.chunk.css.map",
+    "static/css/main.c911240f.chunk.css.map": "/static/css/main.c911240f.chunk.css.map",
+    "static/js/2.d1b9e1d7.chunk.js.LICENSE.txt": "/static/js/2.d1b9e1d7.chunk.js.LICENSE.txt",
+    "static/media/NavbarApp.JPG": "/static/media/NavbarApp.f817f041.JPG",
+    "static/media/bakery.JPG": "/static/media/bakery.b20399e3.JPG",
+    "static/media/screenshot-bakery.jpg": "/static/media/screenshot-bakery.3beb6ce4.jpg",
+    "static/media/screenshot-beershowcase.jpg": "/static/media/screenshot-beershowcase.8b6e16f5.jpg",
+    "static/media/screenshot-movies.jpg": "/static/media/screenshot-movies.a21fe92e.jpg",
+    "static/media/screenshots-HealthyHabits.jpg": "/static/media/screenshots-HealthyHabits.e6601529.jpg",
+    "static/media/screenshots-estore.jpg": "/static/media/screenshots-estore.2c9d1714.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3c762515.js",
-    "static/js/2.2df1af25.chunk.js",
-    "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.16ca37bd.chunk.js"
+    "static/js/runtime-main.0390c9eb.js",
+    "static/css/2.27dd871e.chunk.css",
+    "static/js/2.d1b9e1d7.chunk.js",
+    "static/css/main.c911240f.chunk.css",
+    "static/js/main.38c9b7b8.chunk.js"
   ]
 }
