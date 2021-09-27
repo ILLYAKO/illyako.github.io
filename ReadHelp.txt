@@ -50,8 +50,9 @@ git checkout source .
 
 
 //---React Bootstrap---
-npm install react-bootstrap bootstrap
+// npm install react-bootstrap bootstrap 
+npm install react-bootstrap@next bootstrap@5.1.1
 
-// Add to src/index.js or App.js file
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.js";
+// // // Add to src/index.js or App.js file
+// // import "bootstrap/dist/css/bootstrap.min.css";
+// //import "bootstrap/dist/js/bootstrap.js";
