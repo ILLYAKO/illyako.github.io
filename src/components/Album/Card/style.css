@@ -1,0 +1,14 @@
+.img-scrolling-wrapper {
+  max-height: 398px;
+  overflow-y: scroll;
+  white-space: nowrap;
+}
+
+.card-body-wrapper {
+  min-height: 320px;
+}
+
+.card-animation:hover {
+  transform: scale(1.05);
+  transition: all 0.5s;
+}

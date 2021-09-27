@@ -8,13 +8,13 @@ const NavBar = () => {
   return (
     <Navbar bg="light" expand="lg" className="sticky-top">
       <Container>
-        <Navbar.Brand href="#home">Portfolio</Navbar.Brand>
+        <Navbar.Brand href="#">Portfolio</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">About me</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+            <Nav.Link href="#about">About me</Nav.Link>
+            {/* <Nav.Link href="#link">Link</Nav.Link> */}
+            {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Another action
@@ -24,7 +24,7 @@ const NavBar = () => {
               <NavDropdown.Item href="#action/3.4">
                 Separated link
               </NavDropdown.Item>
-            </NavDropdown>
+            </NavDropdown> */}
           </Nav>
         </Navbar.Collapse>
       </Container>

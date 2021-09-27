@@ -24,10 +24,9 @@ const Footer = () => {
               width="24"
               height="24"
             />
-            <small class="d-block mb-3 text-muted">&copy; 2021 ILLYA</small>
+            <small class="d-block  text-muted">&copy; 2021 ILLYA</small>
           </Col>
-
-          <Col md sm={6} xs={6}>
+          {/* <Col md sm={6} xs={6}>
             <h5>Features</h5>
             <ul class="list-unstyled text-small">
               <li>
@@ -36,8 +35,7 @@ const Footer = () => {
                   className="nav-link p-0 text-muted"
                 >
                   Cool stuff
-                </Link>
-    
+                </Link>    
               </li>
               <li>
                 <Link to="#" className="text-muted">
@@ -115,7 +113,7 @@ const Footer = () => {
                 </Link>
               </li>
             </ul>
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </footer>

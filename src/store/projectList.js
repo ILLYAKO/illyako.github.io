@@ -1,6 +1,6 @@
 export const projectList = [
   {
-    id: 2,
+    id: 1,
     title: "Healthy Habits",
     image: "screenshots-HealthyHabits.jpg",
     description:
@@ -10,12 +10,12 @@ export const projectList = [
     githubUrl: "https://github.com/ILLYAKO/project.git",
   },
   {
-    id: 1,
+    id: 2,
     title: "Bakery",
     image: "screenshot-bakery.jpg",
     description:
       "Responsive Bakery E-commerce Store with authorization and product list. The website is connected to MySQL.Shopping cart consists PayPal payment system.",
-    stack: "MERN, MySQL, ReactJS, NodeJS, HTML5, CSS6, JavaScript",
+    stack: "MERN, MySQL, ReactJS, NodeJS, HTML5, CSS, JavaScript",
     url: "https://illyako.github.io/bakery/#/bakery/",
     githubUrl: "https://github.com/ILLYAKO/bakery",
   },
@@ -26,9 +26,9 @@ export const projectList = [
     image: "screenshot-beershowcase.jpg",
     description:
       "Single page responsive website shows beer list and allows to find wanted beer. The item card provides full information about the product.",
-    stack: "MERN, MySQL, ReactJS, NodeJS, HTML5, CSS6, JavaScript",
-    url: "https://illyako.github.io/bakery/#/bakery/",
-    githubUrl: "https://github.com/ILLYAKO/bakery",
+    stack: "HTML5, CSS, JavaScript, ReactJS",
+    url: "https://illyako.github.io/beer-showcase-fulList/",
+    githubUrl: "https://github.com/ILLYAKO/beer-showcase-fulList",
   },
   {
     id: 4,
