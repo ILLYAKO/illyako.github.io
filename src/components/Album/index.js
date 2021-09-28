@@ -13,8 +13,6 @@ const Album = (props) => {
     // eslint-disable-next-line
   }, []);
 
-  console.log("-->Projects-1: ", projects);
-
   return (
     <>
       <Heading />
