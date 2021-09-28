@@ -3,22 +3,22 @@ import "./style.css";
 
 const Card = (props) => {
   return (
-    <div class="card mb-4 box-shadow card-animation">
+    <div className="card mb-4 box-shadow card-animation">
       <a href={props.url} target="_blank" rel="noopener noreferrer">
         <h2 className="text-center my-3">{props.title}</h2>
         <div className="img-scrolling-wrapper">
           <img
-            class="card-img-top"
+            className="card-img-top"
             src={require(`../../../assets/screenshots/${props.image}`).default.toString()}
             alt="Card cap"
           />
         </div>
       </a>
       <div className="card-body-wrapper">
-        <div class="card-body">
-          <p class="card-text">{props.description}</p>
+        <div className="card-body">
+          <p className="card-text">{props.description}</p>
           <h5 className="mb-0">Technical stack:</h5>
-          <p class="card-text mb-0">{props.stack}</p>
+          <p className="card-text mb-0">{props.stack}</p>
           <a href={props.githubUrl} target="_blank" rel="noopener noreferrer">
             github
           </a>

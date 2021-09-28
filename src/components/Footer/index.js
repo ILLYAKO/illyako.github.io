@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "react-router-dom/Link";
+// import Link from "react-router-dom/Link";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
@@ -13,22 +13,22 @@ import Image from "react-bootstrap/Image";
 
 const Footer = () => {
   return (
-    <footer class="footer mt-auto py-3 bg-light border-top">
+    <footer className="footer mt-auto py-3 bg-light border-top">
       <Container>
         <Row>
           <Col md>
             <Image
-              class="mb-2"
+              className="mb-2"
               src={require("../../assets/full-stack-dev-icon.png").default.toString()}
               alt="Fullstack development icon"
               width="24"
               height="24"
             />
-            <small class="d-block  text-muted">&copy; 2021 ILLYA</small>
+            <small className="d-block  text-muted">&copy; 2021 ILLYA</small>
           </Col>
           {/* <Col md sm={6} xs={6}>
             <h5>Features</h5>
-            <ul class="list-unstyled text-small">
+            <ul className="list-unstyled text-small">
               <li>
                 <Link
                   to="#"
@@ -66,7 +66,7 @@ const Footer = () => {
           </Col>
           <Col md sm={6} xs={6}>
             <h5>Resources</h5>
-            <ul class="list-unstyled text-small">
+            <ul className="list-unstyled text-small">
               <li>
                 <Link to="#" className="text-muted">
                   Resource
@@ -91,7 +91,7 @@ const Footer = () => {
           </Col>
           <Col md sm={6} xs={6}>
             <h5>About</h5>
-            <ul class="list-unstyled text-small">
+            <ul className="list-unstyled text-small">
               <li>
                 <Link to="#" className="text-muted">
                   Team

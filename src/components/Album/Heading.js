@@ -2,21 +2,21 @@ import React from "react";
 
 const Heading = () => {
   return (
-    <section class="container text-center">
-      <div class="container">
-        <h1 class="">Portfolio</h1>
-        <p class="lead text-muted">
+    <section className="container text-center">
+      <div className="container">
+        <h1 className="">Portfolio</h1>
+        <p className="lead text-muted">
           Thank you for taking the time to visit my website. I am so glad you've
           taken the first step towards viewing my works.
-           {/* My name is Illya
+          {/* My name is Illya
           Korotun. I am pasionated full stack web developer. My contact
           information you can find here. */}
         </p>
         {/* <p>
-          <a href="#" class="btn btn-primary my-2">
+          <a href="#" className="btn btn-primary my-2">
             Main call to action
           </a>
-          <a href="#" class="btn btn-secondary my-2">
+          <a href="#" className="btn btn-secondary my-2">
             Secondary action
           </a>
         </p> */}
