@@ -1,11 +1,8 @@
-import {
-  FETCH_PROJECTS,
-  // NEW_PROJECT
-} from "../actions/types";
+import { FETCH_PROJECTS, NEW_PROJECT } from "../actions/types";
 
 const initialState = {
   items: [],
-  // item: {},
+  item: {},
 };
 
 // eslint-disable-next-line
@@ -15,6 +12,11 @@ export default function (state = initialState, action) {
       return {
         ...state,
         items: action.payload,
+      };
+    case NEW_PROJECT:
+      return {
+        ...state,
+        item: action.payload,
       };
 
     default:
