@@ -20,7 +20,7 @@ const Card = (props) => {
           <h5 className="mb-0">Technical stack:</h5>
           <p className="card-text mb-0">{props.stack}</p>
           <a href={props.githubUrl} target="_blank" rel="noopener noreferrer">
-            github
+            Github
           </a>
         </div>
       </div>
