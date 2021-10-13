@@ -5,7 +5,7 @@
     "image": "screenshots-HealthyHabits.jpg",
     "description": "The main idea of the project is to help people create healthy habits. The multi-page project has a front end with a welcome page, registration form, sign-in, request form, answer list page and etc. There are Model-View-Controller Patter on the back end and connection to the MySQL database.",
     "stack": "REST API, HTML, CSS, JSP, Java, MySQL",
-    "url": "#",
+    "url": "https://github.com/ILLYAKO/project.git",
     "githubUrl": "https://github.com/ILLYAKO/project.git"
   },
   {
