@@ -8,17 +8,15 @@ const Footer = () => {
   return (
     <footer className="footer mt-auto py-3 bg-light border-top">
       <Container>
-        <Row>
-          <Col md>
-            <Image
-              className="mb-2"
-              src={require("../../assets/full-stack-dev-icon.png").default.toString()}
-              alt="Fullstack development icon"
-              width="24"
-              height="24"
-            />
-            <small className="d-block  text-muted">&copy; 2021 ILLYA</small>
-          </Col>
+        <Row className="justify-content-md-center">
+          <Image
+            className="mb-2"
+            src={require("../../assets/full-stack-dev-icon.png").default.toString()}
+            alt="Fullstack development icon"
+            width="24"
+            height="24"
+          />
+          <small className="d-block  text-muted">&copy; 2021 ILLYA</small>
         </Row>
       </Container>
     </footer>
